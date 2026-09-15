@@ -9,6 +9,7 @@ class Solution {
                 return digits;
             }
         }
+        // if all are 9's
         int[] arr = new int[idx + 1];
         arr[0] = 1;
         return arr;
